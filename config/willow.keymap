@@ -70,7 +70,7 @@
             #binding-cells = <0>;
             bindings =
                 <&auto_shift_short LS(SEMI) SEMI>,
-                <&auto_shift_short APOSTROPHE APOSTROPHE>;
+                <&auto_shift_short LS(APOSTROPHE) APOSTROPHE>;
 
             tapping-term-ms = <200>;
         };
