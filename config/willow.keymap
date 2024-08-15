@@ -40,11 +40,13 @@
             label = "BLUETOOTH_TAP";
             #binding-cells = <0>;
             bindings =
-                <&bt_profile_0>,
-                <&bt_profile_1>,
-                <&bt_profile_2>,
-                <&bt_profile_3>,
-                <&bt_profile_4>;
+                <&bt BT_SEL 0>,
+                <&bt BT_SEL 1>,
+                <&bt BT_SEL 2>,
+                <&bt BT_SEL 3>,
+                <&bt BT_SEL 4>;
+
+            tapping-term-ms = <300>;
         };
 
         bootloader_tap: bootloader_tap {
