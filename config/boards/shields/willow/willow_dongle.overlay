@@ -1,0 +1,10 @@
+// import the default shield configuration
+#include "willow.dtsi"
+
+&kscan {
+    compatible = "zmk,kscan-mock";
+
+    columns = <0>;
+    rows = <0>;
+    events = <0>;
+}
