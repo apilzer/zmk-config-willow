@@ -14,8 +14,8 @@
 #define MOUSE   3
 
 &msc {
-    acceleration-exponent=<0>;
-    time-to-max-speed-ms = <10000>;      // 300
+    acceleration-exponent=<1>;
+    time-to-max-speed-ms = <100000>;      // 300
     delay-ms = <0>;    
 };
 
