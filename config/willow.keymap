@@ -15,7 +15,7 @@
 
 &msc {
     acceleration-exponent=<1>;
-    time-to-max-speed-ms = <100000>;      // 300
+    time-to-max-speed-ms = <500>;      // 300
     delay-ms = <0>;    
 };
 
@@ -131,8 +131,8 @@
 
         mouse_layer {
             bindings = <
-&trans                  &trans          &mmv MOVE_UP    &trans           &msc MOVE_UP      &trans     &trans  &trans  &trans  &trans
-&control_gui_tap_dance  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc MOVE_DOWN    &trans     &trans  &trans  &trans  &trans
+&trans                  &trans          &mmv MOVE_UP    &trans           &msc MOVE_UP      &trans     &trans  &kp UP_ARROW  &trans  &trans
+&control_gui_tap_dance  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc MOVE_DOWN    &trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
 &kp LEFT_SHIFT          &trans          &mkp MB3        &trans           &trans            &trans     &trans  &trans  &trans  &trans
                                        &trans          &to 0            &mkp RCLK         &mkp LCLK  &to 0   &trans
             >;
