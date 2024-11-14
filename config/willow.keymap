@@ -122,7 +122,7 @@
 
         lower_layer {
             bindings = <
-&kp GRAVE     &trans        &kp UP_ARROW  &trans        &bootloader_tap    &trans     &auto_shift LS(N7) N7              &auto_shift LS(N8) N8              &auto_shift LS(N9) N9              &trans
+&kp GRAVE     &trans        &kp UP_ARROW  &trans        &bootloader_tap    &studio_unlock     &auto_shift LS(N7) N7              &auto_shift LS(N8) N8              &auto_shift LS(N9) N9              &trans
 &trans        &kp LEFT      &kp DOWN      &kp RIGHT     &trans             &trans     &auto_shift LS(NUMBER_4) NUMBER_4  &auto_shift LS(N5) N5              &auto_shift LS(NUMBER_6) NUMBER_6  &trans
 &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_CLR         &trans     &auto_shift LS(NUMBER_1) NUMBER_1  &auto_shift LS(NUMBER_2) NUMBER_2  &auto_shift LS(NUMBER_3) NUMBER_3  &trans
                             &trans        &to 0         &kp DELETE         &kp SPACE  &to 0                              &auto_shift LS(N0) N0
