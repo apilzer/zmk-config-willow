@@ -137,5 +137,15 @@
                                        &trans          &to 0            &mkp RCLK         &mkp LCLK  &to 0   &trans
             >;
         };
+
+        extra1 {
+            status = "reserved";
+        };
+        extra2 {
+            status = "reserved";
+        };
+        extra3 {
+            status = "reserved";
+        };
     };
 };
